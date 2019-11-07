@@ -1,8 +1,8 @@
 import {createStore, applyMiddleware, combineReducers} from 'redux'
-import hackerNewsReducer from './ducks/hackerNewsReducer'
 // import applyMiddleware from 'redux'
 import promiseMiddleware from 'redux-promise-middleware'
 import mediumReducer from './ducks/mediumReducer'
+import hackerNewsReducer from './ducks/hackerNewsReducer'
 
 
 const rootReducer = combineReducers({
